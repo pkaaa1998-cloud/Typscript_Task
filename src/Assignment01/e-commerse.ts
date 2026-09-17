@@ -101,7 +101,7 @@ const Gstrate :number=18;
 let gstamount=taxiableamount*Gstrate/100;
 console.log(gstamount);
 
-//-----------------------amount before delivery------------------------------------------//
+------------------amount before delivery------------------------------------------//
 let amountbeforedelivary =taxiableamount+gstamount;
 
 //------------------------free delivery amount-----------------------------------//
@@ -155,7 +155,7 @@ console.log(`
     order states    :${orderstatus}
 
     ==================================================================
-            thank you for shopping
+            Welcome thank you for shopping
     =================================================================        
          
     `);
