@@ -101,7 +101,7 @@ const Gstrate :number=18;
 let gstamount=taxiableamount*Gstrate/100;
 console.log(gstamount);
 
-------------------amount before delivery------------------------------------------//
+//------------------amount before delivery------------------------------------------//
 let amountbeforedelivary =taxiableamount+gstamount;
 
 //------------------------free delivery amount-----------------------------------//
@@ -116,7 +116,7 @@ console.log(discountsubtotal);
 
 let finalbillAmount = ("discount subtotal+gstamount");
 console.log(finalBillAmount);
-const deliveryCharge: any = finalbillAmount>= 2000 ? "free delivery(0)" : "otherwise deliverycharge(150)";
+const deliveryCharge: any = finalBillAmount>= 2000 ? "free delivery(0)" : "otherwise deliverycharge(150)";
 console.log(deliveryCharge);
 
 
